@@ -3,6 +3,8 @@ import {Map, InfoWindow, Marker, GoogleApiWrapper, Polyline} from 'google-maps-r
 
 //AIzaSyB1MfF_siw9M4TnUohC_DEsJS_kmsWVbqQ
 
+import './map.css'
+
 export class MapContainer extends Component {
   
   render() {

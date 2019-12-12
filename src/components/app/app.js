@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import GoogleApiWrapper from './map.js'
+import './app.css';
+import GoogleApiWrapper from '../map'
 
 //AIzaSyB1MfF_siw9M4TnUohC_DEsJS_kmsWVbqQ
 
