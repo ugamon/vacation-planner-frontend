@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper, Polyline} from 'google-maps-react';
+import SlidePannel from '../slide-panel'
 
-//AIzaSyB1MfF_siw9M4TnUohC_DEsJS_kmsWVbqQ
+
 
 import './map.css'
 
@@ -36,6 +37,7 @@ export class MapContainer extends Component {
 	            lng: 37.618423
           }}
           >
+        <SlidePannel/>
        	<Polyline
 	          path={coordsMajor}
 	          strokeColor="#ff0000"
@@ -63,5 +65,5 @@ export class MapContainer extends Component {
 }
  
 export default GoogleApiWrapper({
-  apiKey: ("AIzaSyB1MfF_siw9M4TnUohC_DEsJS_kmsWVbqQ")
+  apiKey: ("mock")
 })(MapContainer)
