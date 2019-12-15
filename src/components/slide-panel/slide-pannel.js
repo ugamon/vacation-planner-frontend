@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import SmileButton from '../smile-button'
 
 import './slide-pannel.css'
 
@@ -10,8 +11,11 @@ export default class SlidePannel extends Component {
 				<label for="clicker">Click me! I'm an arbitrary trigger</label>
 				<div class="panel-wrap">
 		 			<div class="panel">
-				    		<h3>Yay! Panels!</h3>
-				    </div>
+				    		<h3>Выбери свой тур</h3>
+							<SmileButton/>
+					</div>
+
+
 				</div>
 			</div>
 
